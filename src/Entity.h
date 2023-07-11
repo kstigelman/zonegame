@@ -9,7 +9,6 @@
 class Entity
 {
 	private:
-		
 		sf::Texture texture;
 	
 	public:

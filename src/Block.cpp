@@ -97,15 +97,15 @@ void Block::Use()
 
 						}
 					}*/
-					blocks[blocks.size() - 1].setPosition(floor(blocks[blocks.size() - 1].getPosition().x / 32 - 1) * 32 - 16, floor(blocks[blocks.size() - 1].getPosition().y / 32) * 32 + 16);
-					blocks[blocks.size() - 2].setPosition(floor(blocks[blocks.size() - 2].getPosition().x / 32 - 1) * 32 - 16, floor(blocks[blocks.size() - 2].getPosition().y / 32) * 32 - 16);
-					blocks[blocks.size() - 3].setPosition(floor(blocks[blocks.size() - 3].getPosition().x / 32 - 1) * 32 - 16, floor(blocks[blocks.size() - 3].getPosition().y / 32) * 32 - 48);
+					blocks[blocks.size() - 1].setPosition(std::floor(blocks[blocks.size() - 1].getPosition().x / 32 - 1) * 32 - 16, std::floor(blocks[blocks.size() - 1].getPosition().y / 32) * 32 + 16);
+					blocks[blocks.size() - 2].setPosition(std::floor(blocks[blocks.size() - 2].getPosition().x / 32 - 1) * 32 - 16, std::floor(blocks[blocks.size() - 2].getPosition().y / 32) * 32 - 16);
+					blocks[blocks.size() - 3].setPosition(std::floor(blocks[blocks.size() - 3].getPosition().x / 32 - 1) * 32 - 16, std::floor(blocks[blocks.size() - 3].getPosition().y / 32) * 32 - 48);
 				}
 				else
 				{
-					blocks[blocks.size() - 1].setPosition(floor(blocks[blocks.size() - 1].getPosition().x / 32 + 1) * 32 + 16, floor(blocks[blocks.size() - 1].getPosition().y / 32) * 32 + 16);
-					blocks[blocks.size() - 2].setPosition(floor(blocks[blocks.size() - 2].getPosition().x / 32 + 1) * 32 + 16, floor(blocks[blocks.size() - 2].getPosition().y / 32) * 32 - 16);
-					blocks[blocks.size() - 3].setPosition(floor(blocks[blocks.size() - 3].getPosition().x / 32 + 1) * 32 + 16, floor(blocks[blocks.size() - 3].getPosition().y / 32) * 32 - 48);
+					blocks[blocks.size() - 1].setPosition(std::floor(blocks[blocks.size() - 1].getPosition().x / 32 + 1) * 32 + 16, std::floor(blocks[blocks.size() - 1].getPosition().y / 32) * 32 + 16);
+					blocks[blocks.size() - 2].setPosition(std::floor(blocks[blocks.size() - 2].getPosition().x / 32 + 1) * 32 + 16, std::floor(blocks[blocks.size() - 2].getPosition().y / 32) * 32 - 16);
+					blocks[blocks.size() - 3].setPosition(std::floor(blocks[blocks.size() - 3].getPosition().x / 32 + 1) * 32 + 16, std::floor(blocks[blocks.size() - 3].getPosition().y / 32) * 32 - 48);
 				}
 				
 
