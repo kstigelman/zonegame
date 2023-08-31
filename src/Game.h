@@ -11,7 +11,6 @@
 #include "Player.h"
 #include "Zone.h"
 
-enum GameState = { start, title, options, play, exit };
 
 class Game
 {
@@ -23,7 +22,7 @@ class Game
 			float WIDTH;
 			float HEIGHT;
 
-			GameState state;
+	
 
 			sf::Clock clock;
 			bool paused;

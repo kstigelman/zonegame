@@ -39,6 +39,8 @@ add_executable(ZoneGame src/main.cpp
     src/Zone.cpp
     src/ZoneArmor.cpp
 )
+set(CMAKE_COMPILE_WARNING_AS_ERROR OFF)
+
 target_link_libraries(ZoneGame PRIVATE sfml-graphics)
 target_compile_features(ZoneGame PRIVATE cxx_std_17)
 if (WIN32 AND BUILD_SHARED_LIBS)

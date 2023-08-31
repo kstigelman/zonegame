@@ -57,21 +57,7 @@ Game::~Game()
 	
 }
 void Game::Update() {
-	if (state == GameState.start) {
-
-	}
-	if (state == GameState.title) {
-
-	}
-	if (state == GameState.options) {
-
-	}
-	if (state == GameState.play) {
-
-	}
-	if (state == GameState.exit) {
-
-	}
+	
 
 	if (gameState == 0) //Title Screen
 	{
