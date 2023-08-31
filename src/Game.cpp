@@ -50,11 +50,11 @@ void Game::EventManager()
 Game::~Game()
 {
 	delete zone;
-	delete[] players;
 	delete player;
 	delete p2;
 
-	
+	for (int i = 0; i < 4; ++i)
+		delete players[i];
 }
 void Game::Update() {
 	
