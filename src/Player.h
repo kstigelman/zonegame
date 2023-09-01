@@ -46,6 +46,7 @@ class Player : public Entity
 
 		Controller controller;
 	public:
+	
 		PlayerGUI* playerGUI;
 		Item* item;
 		Block* block;
