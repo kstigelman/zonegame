@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <cmath>
 
 #include "Global.h"
 #include "Collider.h"
@@ -9,10 +10,6 @@
 
 Block::Block()
 {
-	
-
-	
-
 	blocks.push_back(sf::Sprite(sprite));
 	blocks[0].setPosition(0, 5000);
 	type = 1;

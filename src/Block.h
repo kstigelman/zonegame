@@ -2,6 +2,7 @@
 #define BLOCK_H_INCLUDED
 
 #include <SFML/Graphics.hpp>
+#include <cmath>
 
 #include "Global.h"
 #include "Collider.h"

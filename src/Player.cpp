@@ -39,7 +39,7 @@ Player::Player(int playerID, sf::Vector2f hbDimensions)
 	isActive = true;
 	jumping = false;
 	letGo = false;
-
+	
 	sprite.setOrigin(20, 30);
 
 	switch (playerID)
