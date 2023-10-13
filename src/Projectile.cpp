@@ -1,4 +1,6 @@
 #include <SFML/Graphics.hpp>
+#include <cmath>
+
 #include "Projectile.h"
 
 Projectile::Projectile()

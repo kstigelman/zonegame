@@ -2,6 +2,8 @@
 #define TIMER_H_INCLUDED
 
 #include <SFML/Graphics.hpp>
+#include <cstring>
+
 #include "Global.h"
 
 class Timer

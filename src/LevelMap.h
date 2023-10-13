@@ -2,6 +2,8 @@
 #define LEVELMAP_H_INCLUDED
 
 #include <SFML/Graphics.hpp>
+#include <cmath>
+
 #include "Global.h"
 #include "TileMap.h"
 #include "Tile.h"

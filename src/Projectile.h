@@ -2,6 +2,8 @@
 #define PROJECTILE_H_INCLUDED
 
 #include <SFML/Graphics.hpp>
+#include <cmath>
+
 class Projectile
 {
 	protected:

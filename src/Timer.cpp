@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <cstring>
 
 #include "Global.h"
 #include "Timer.h"
