@@ -3,22 +3,22 @@ Survive the Zone and be the last one standing in this 4 player multiplayer game 
 Use items and build walls to escape and trap your friends.
 
 ## Controls
-Player 1 (Blue):
+- Player 1 (Blue):
     W - Jump
     A/D - Move Left/Right
     S - Swap Item
     E - Use Item
-Player 2 (Red):
+- Player 2 (Red):
     I - Jump
     J/L - Move Left/Right
     K - Swap Item
     O - Use Item
-Player 3 (Green):
+- Player 3 (Green):
     Up Arrow - Jump
     Left/Right Arrow - Move Left/Right
     Down Arrow - Swap Item
     Right Ctrl - Use Item
-Player 4 (Yellow):
+- Player 4 (Yellow):
     NUMPAD 8 - Jump
     NUMPAD 4/NUMPAD 6 - Move Left/Right
     NUMPAD 6 - Swap Item
